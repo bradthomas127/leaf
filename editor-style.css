@@ -1,0 +1,327 @@
+/**
+* Theme Name: Leaf
+* Description: Used to style the TinyMCE editor with the default 4 column layout.
+*/
+html {
+	font-size: 62.5%;
+}
+/* Default four column sidebar layout */
+html .mceContentBody {
+	max-width: 600px;
+}
+/* If Leaf options set to three column sidebar widen the editor body to match content width */
+html .mceContentBody.three-column {
+	max-width: 680px;
+}
+body {
+	color: #555;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	font-size: 1.3rem;
+	line-height: 1;
+	text-rendering: optimizeLegibility;
+	vertical-align: baseline;
+}
+/* =Headings
+-------------------------------------------------------------- */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+	line-height: 1.2;
+	margin: 24px 0;
+	margin: 2.4rem 0;
+}
+h1 {
+	font-size: 21px;
+	font-size: 2.1rem;
+	line-height: 1.5;
+}
+h2 {
+	font-size: 18px;
+	font-size: 1.8rem;
+	line-height: 1.6;
+}
+h3 {
+	font-size: 16px;
+	font-size: 1.6rem;
+}
+h4 {
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+h5 {
+	font-size: 13px;
+	font-size: 1.3rem;
+}
+h6 {
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+hr {
+	background-color: #ccc;
+	border: 0;
+	height: 1px;
+	margin: 24px;
+	margin-bottom: 2.4rem;
+}
+/* =Text elements
+-------------------------------------------------------------- */
+p {
+	line-height: 1.6;
+	margin: 0 0 24px;
+	margin: 0 0 2.4rem;
+}
+ul,
+ol {
+	margin: 0 0 24px;
+	margin: 0 0 2.4rem;
+	line-height: 1.6;
+	padding: 0;
+}
+ul {
+	list-style: disc outside;
+}
+ol {
+	list-style: decimal outside;
+}
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+	margin-bottom: 0;
+}
+li {
+	margin: 0 0 0 24px;
+	margin: 0 0 0 2.4rem;
+}
+dl {
+	margin: 0 24px;
+	margin: 0 2.4rem;
+}
+dt {
+	font-weight: bold;
+	margin-bottom: 24px;
+	margin-bottom: 2.4rem;
+}
+dd {
+	line-height: 1.6;
+	margin: 0 0 24px;
+	margin: 0 0 2.4rem;
+}
+strong {
+	font-weight: bold;
+}
+cite,
+em,
+i {
+	font-style: italic;
+}
+cite {
+	border: none;
+}
+big {
+	font-size: 120%;
+}
+.mceContentBody blockquote {
+	font-style: italic !important;
+	font-weight: normal;
+	margin: 0;
+	padding: 24px;
+	padding: 2.4rem;
+}
+pre {
+	border: 1px solid #ededed;
+	color: #666;
+	font-family: Consolas, Monaco, Lucida Console, monospace;
+	font-size: 12px;
+	font-size: 1.2rem;
+	line-height: 1.6;
+	margin: 24px 0;
+	margin: 2.4rem 0;
+	overflow: auto;
+	padding: 24px;
+	padding: 2.4rem;
+}
+code,
+kbd,
+samp,
+var {
+	font-family: Consolas, Monaco, Lucida Console, monospace;
+	font-size: 12px;
+	font-size: 1.2rem;
+	line-height: 1.8;
+}
+abbr,
+acronym,
+dfn {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+address {
+	display: block;
+	line-height: 1.6;
+	margin: 0 0 24px;
+	margin: 0 0 2.4rem;
+}
+del {
+	color: #333;
+}
+ins {
+	background: #fff9c0;
+	border: none;
+	color: #333;
+	text-decoration: none;
+}
+sup,
+sub {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	top: -0.5em;
+}
+sub {
+	bottom: -0.25em;
+}
+input[type="text"] {
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	font-family: inherit;
+	padding: 6px;
+	padding: 0.6rem;
+}
+textarea {
+	border: 1px solid #d5d2ca;
+	border-radius: 3px;
+	font-family: inherit;
+	font-size: 12px;
+	font-size: 1.2rem;
+	line-height: 1.6;
+	padding: 10px;
+	padding: 1rem;
+	width: 96%;
+}
+/* =Links
+-------------------------------------------------------------- */
+a,
+a em,
+a strong {
+	color: #454545;
+	outline: none;
+}
+a:focus,
+a:active,
+a:hover {
+	color: #C4302B;
+}
+/* =Alignment
+-------------------------------------------------------------- */
+.alignleft {
+	display: inline;
+	float: left;
+	margin: 12px 24px 12px 0;
+	margin: 1.2rem 2.4rem 1.2rem 0;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin: 12px 0 12px 24px;
+	margin: 1.2rem 0 1.2rem 2.4rem;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-top: 12px;
+	margin-top: 1.2rem;
+	margin-bottom: 12px;
+	margin-bottom: 1.2rem;
+}
+/* =Tables
+-------------------------------------------------------------- */
+table {
+	border-bottom: 1px solid #ededed;
+	border-collapse: collapse;
+	border-spacing: 0;
+	color: #777;
+	font-size: 12px;
+	font-size: 1.2rem;
+	line-height: 1.8;
+	margin: 0 0 24px;
+	margin: 0 0 2.4rem;
+	width: 100%;
+}
+tr th {
+	color: #636363;
+	font-size: 11px;
+	font-size: 1.1rem;
+	font-weight: bold;
+	line-height: 1.8;
+	text-align: left;
+	text-transform: uppercase;
+}
+td {
+	border-top: 1px solid #ededed !important;
+	color: #777;
+	font-size: inherit;
+	font-weight: normal;
+	padding: 6px 10px 6px 0;
+	text-align: left;
+}
+/* =Images
+-------------------------------------------------------------- */
+img {
+	background: #F3F3F3;
+	border: 1px solid #E1E1E1;
+	padding: 4px;
+	max-width: 100%;
+}
+img.size-full {
+	width: auto/9; /* Prevent stretching of full-size images in IE8 */
+}
+img[class*="wp-image-"] {
+	height: auto;
+	max-width: 100%;
+}
+img[class*="align"],
+img[class*="wp-image-"],
+img[class*="attachment-"] {
+	height: auto;
+}
+img.mceWPnextpage {
+	border-radius: 0;
+	box-shadow: none;
+}
+img.wp-smiley {
+	border: 0;
+	border-radius: 0;
+	box-shadow: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+.wp-caption {
+	background: transparent;
+	border: none;
+	margin: 0;
+	padding: 4px;
+	text-align: left;
+}
+.wp-caption-dt {
+	margin: 0;
+}
+.wp-caption .wp-caption-text,
+.wp-caption-dd {
+	color: #777;
+	font-style: italic;
+	font-size: 12px;
+	font-size: 1.2rem;
+	line-height: 1.8;
+	margin: 0 0 24px;
+	margin: 0 0 2.4rem;
+}

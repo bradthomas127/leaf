@@ -1,0 +1,176 @@
+/*
+ * Theme Name: Leaf
+ *
+ * RTL Stylesheet
+ *
+ * @info http://codex.wordpress.org/Right_to_Left_Language_Support
+ *
+ * @since Leaf 1.0
+ */
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+caption,
+th,
+td {
+	text-align: right;
+}
+
+/* --------------------------------------------------------------
+ * = Structure
+ * ----------------------------------------------------------- */
+ 
+/* The Grid ------- */
+
+.column, .columns { float: right; min-height: 1px; padding-left: 15px; padding-right: 15px; position: relative; }
+.column.centered, .columns.centered { float: none; margin: 0 auto; }
+[class*="column"] + [class*="column"]:last-child { float: left; }
+[class*="column"] + [class*="column"].end { float: right; }
+
+.site-content {
+	border-left: 1px solid #EDEDED;
+	border-right: 0;
+}
+.site-content .image-attachment  {
+	border-left: 0;
+}
+
+.nav-previous,
+.previous-image {
+	float: right;
+}
+.nav-next,
+.next-image {
+	float: left;
+	text-align: left;
+}
+
+.author-avatar {
+	float: right;
+}
+.author-description {
+	float: right;
+	margin-right: 15px;
+	margin-right: 1.071428571rem;
+	margin-left: auto;
+}
+
+.pagination {
+	float: right;
+}
+
+.main-navigation li a {
+	border-right: 1px solid #DDD;
+	border-left: 0;
+	padding-right: 15px;
+	padding-left: 0;
+}
+.main-navigation ul li li {
+	margin-right: 0;
+}
+.main-navigation li ul li a {
+	border-right: 0;
+}
+.main-navigation li ul::after {
+	right: 10px;
+}
+#mm0 {
+	background-position: left center;
+}
+.comment-content ol,
+.comment-content ul {
+	margin: 0 24px 0 0;
+	margin: 0 1.714285714rem 0 0;
+}
+
+.entry-content blockquote, .comment-content blockquote {
+	border-right: 5px solid #E6E6E6;
+	border-left: 0;
+}
+.entry-content li,
+.comment-content li {
+	margin: 0 24px 0 0;
+	margin: 0 2.4rem 0 0;
+}
+.entry-content td,
+.comment-content td {
+	padding: 6px 0 6px 10px;
+	padding: .6rem 0 .6rem 1rem;
+}
+.divider-title, .post-divider {
+	text-align: right;
+}
+.vertical-divider {
+	border-right: 1px dotted #BBB;
+	border-left: 0;
+}
+.image-tag, .aside-format, .audio-format, .gallery-format, .image-format, .link-format, .video-format {
+	border-left: 1px solid #fff;
+	border-right: 0;
+	right: 21px;
+}
+.image-tag {
+	width: 40%;
+}
+
+
+
+/* --------------------------------------------------------------
+ * = Comments
+ * ----------------------------------------------------------- */
+.comments-area, #respond, .commentlist, .commentlist ul.children, .commentlist li.comment, .commentlist li.pingback, .commentlist .comment-body {
+	text-align: right;
+}
+.commentlist li.comment .comment-author, .commentlist li.comment .comment-meta, .commentlist li.comment .comment-text {
+	padding-left: 0;
+	padding-right: 70px;
+}
+.commentlist li.comment .avatar {
+	float: right;
+}
+.comment-content .reply {
+	float: left;
+}
+
+/* --------------------------------------------------------------
+ * = Footer
+ * ----------------------------------------------------------- */
+
+.site-info {
+	text-align: left;
+}
+
+/* --------------------------------------------------------------
+ * = Widget
+ * ----------------------------------------------------------- */
+.widget-title span {
+	background: white;
+	padding-left: 10px;
+	padding-left: 1rem;
+	padding-right: 0;
+}
+
+.widget-area .widget ul ul {
+	margin-right: 12px;
+	margin-right: 1.2rem;
+	margin-left: auto;
+}
+.widget_recent_entries .post-date,
+.widget_rss .rss-date {
+	margin-right: 12px;
+	margin-right: 1.2rem;
+	margin-left: auto;
+}
+#wp-calendar th,
+#wp-calendar td,
+#wp-calendar caption {
+	text-align: right;
+}
+#wp-calendar #next {
+	padding-left: 24px;
+	padding-left: 2.4rem;
+	text-align: left;
+	padding-right: 0;
+}

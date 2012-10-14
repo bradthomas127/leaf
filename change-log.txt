@@ -1,0 +1,11 @@
+=== Leaf Theme Change Log ===
+Contributors: bradthomas127
+Tags: 
+Requires at least: 3.3
+Tested up to: 3.5 Beta 2
+
+== Change Log ==
+This change log was started beginning with Version 1.0
+
+= Changes Version 1.0 =
+* Lets Do This!
