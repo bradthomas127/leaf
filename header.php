@@ -24,8 +24,7 @@
 <body <?php body_class(); ?>>
 
 <div id="page" class="hfeed site">
-	
-	
+
 	<div id="head-container">
 	
 		<?php leaf_header_before(); // Before Header hook. ?>
@@ -43,12 +42,10 @@
 			</div><!-- .top-nav .row -->
 					
 		<?php } ?>
-		
-		
+
 		<div class="row">
 			<header id="masthead" class="site-header row twelve columns" role="banner">
-			
-			
+
 				<div class="row">
 					<div class="header-group six columns">
 					
@@ -70,9 +67,6 @@
 						<?php leaf_header_inside(); // Inside Header hook. ?>
 						
 				</div><!-- .row -->
-				
-				
-				
 				
 				<nav role="navigation" class="site-navigation main-navigation">
 					<h1 class="assistive-text"><?php _e( 'Menu', 'leaf' ); ?></h1>

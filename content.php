@@ -1,6 +1,6 @@
 <?php
 /**
- * The default template for displaying content. Used for both single and index/archive/search.
+ * The template for displaying content.
  *
  * @since Leaf 1.0
  */
@@ -16,7 +16,7 @@
 				
 					<a href="<?php the_permalink(); ?>">
 						<img src="<?php echo leaf_get_post_image( null,null,true,null, 'medium' ); ?>" alt="<?php the_title(); ?>" class="attachment-post-thumbnail wp-post-image">
-						<span class="image-tag"><p><?php _e( 'Featured', 'leaf' ); ?></p></span>
+						<span class="image-tag"><?php _e( 'Featured', 'leaf' ); ?></span>
 					</a>
 					
 				<?php else : ?>

@@ -23,7 +23,6 @@ td {
  * ----------------------------------------------------------- */
  
 /* The Grid ------- */
-
 .column, .columns { float: right; min-height: 1px; padding-left: 15px; padding-right: 15px; position: relative; }
 .column.centered, .columns.centered { float: none; margin: 0 auto; }
 [class*="column"] + [class*="column"]:last-child { float: left; }
@@ -36,7 +35,6 @@ td {
 .site-content .image-attachment  {
 	border-left: 0;
 }
-
 .nav-previous,
 .previous-image {
 	float: right;
@@ -46,7 +44,6 @@ td {
 	float: left;
 	text-align: left;
 }
-
 .author-avatar {
 	float: right;
 }
@@ -56,11 +53,9 @@ td {
 	margin-right: 1.071428571rem;
 	margin-left: auto;
 }
-
 .pagination {
 	float: right;
 }
-
 .main-navigation li a {
 	border-right: 1px solid #DDD;
 	border-left: 0;
@@ -84,7 +79,6 @@ td {
 	margin: 0 24px 0 0;
 	margin: 0 1.714285714rem 0 0;
 }
-
 .entry-content blockquote, .comment-content blockquote {
 	border-right: 5px solid #E6E6E6;
 	border-left: 0;
@@ -114,8 +108,6 @@ td {
 .image-tag {
 	width: 40%;
 }
-
-
 
 /* --------------------------------------------------------------
  * = Comments
@@ -151,7 +143,6 @@ td {
 	padding-left: 1rem;
 	padding-right: 0;
 }
-
 .widget-area .widget ul ul {
 	margin-right: 12px;
 	margin-right: 1.2rem;

@@ -23,4 +23,5 @@ require( get_template_directory() . '/includes/theme-plugins.php' );
 /* Custom action hooks for this theme. */
 require( get_template_directory() . '/includes/hooks.php' );
 
+/* Add contextual help. */
 require( get_template_directory() . '/includes/admin/help.php' );

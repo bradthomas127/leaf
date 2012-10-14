@@ -2,7 +2,7 @@
 /**
  * The Sidebar containing the main widget area.
  *
- * If no active widgets in sidebar, hide it completely.
+ * If no active widgets in sidebar, show meta widget.
  *
  * @since Leaf 1.0
  */

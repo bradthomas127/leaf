@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying posts in the gallery post format
+ * The template for displaying posts in the gallery post format.
  *
  * @since Leaf 1.0
  */

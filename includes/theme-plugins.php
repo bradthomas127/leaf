@@ -257,7 +257,9 @@ add_action('wp_footer','leaf_scroll_top',30);
 
 /* 
  * Add new HTML container element around video embeds 
- * to allow for CSS scaling of videos. 
+ * to allow for CSS scaling of videos.
+ *
+ * @Author: Kevin Leary
  *
  * @since Leaf 1.0 
  */ 

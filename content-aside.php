@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying posts in the Aside post format
+ * The template for displaying posts in the Aside post format.
  *
  * @since Leaf 1.0
  */

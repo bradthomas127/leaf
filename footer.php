@@ -42,7 +42,7 @@
 
 				<div class="site-info six columns">
 
-					<a href="<?php echo esc_url( __( 'http://wp-ultra.com/', 'leaf' ) ); ?>" title="<?php esc_attr_e( 'Leaf Theme', 'leaf' ); ?>"><?php printf( __('Leaf Theme', 'leaf')); ?></a> 
+					<a href="<?php echo esc_url( __( 'http://fatboythemes.com/themes/leaf/', 'leaf' ) ); ?>" title="<?php esc_attr_e( 'Leaf Theme', 'leaf' ); ?>"><?php printf( __('Leaf Theme', 'leaf')); ?></a> 
 					<?php printf( __( 'powered by', 'leaf' )); ?> 
 					<a href="<?php echo esc_url( __('http://wordpress.org/', 'leaf')); ?>" title="<?php esc_attr_e('WordPress', 'leaf'); ?>"><?php printf( __('WordPress', 'leaf')); ?></a>
 
@@ -51,7 +51,7 @@
 			</div><!-- .row info-wrap-->
 		</div><!-- .footer-info -->
 		
-		<div class="scroll-to-top"></div><!-- #wp_ultra-to-top -->
+		<div class="scroll-to-top"></div><!-- .scroll-to-top -->
 		
 	</footer><!-- #colophon .site-footer -->
 </div><!-- #page .hfeed .site -->

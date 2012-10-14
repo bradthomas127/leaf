@@ -1,308 +1,297 @@
-# Copyright (C) 2012 the WordPress team
-# This file is distributed under the GNU General Public License v2 or later.
+# Copyright (C) Leaf
+# This file is distributed under the same license as the Leaf package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Leaf .6\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tags/hurst\n"
-"POT-Creation-Date: 2012-07-05 00:21:16+00:00\n"
+"Project-Id-Version: Leaf 1.0\n"
+"Report-Msgid-Bugs-To: http://wp-ultra.com\n"
+"POT-Creation-Date: 2012-10-14 13:12-0500\n"
+"PO-Revision-Date: 2012-10-14 13:14-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2012-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 
+#: 404.php:16
+msgid "404"
+msgstr ""
+
 #: 404.php:17
-msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgid "Oops!"
 msgstr ""
 
-#: 404.php:21
-msgid ""
-"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
-"searching can help."
+#: 404.php:18
+msgid "We are really sorry but the page you requested can not be found."
 msgstr ""
 
-#: archive.php:23
+#: 404.php:23
+msgid "It seems that the page you were trying to reach does not exist anymore, or maybe it has moved, we think the best thing to do is to start again from the home page or try searching for the page."
+msgstr ""
+
+#: archive.php:19
+#, php-format
 msgid "Daily Archives: %s"
 msgstr ""
 
-#: archive.php:25
+#: archive.php:21
+#, php-format
 msgid "Monthly Archives: %s"
 msgstr ""
 
-#: archive.php:25
-msgctxt "monthly archives date format"
+#: archive.php:21
 msgid "F Y"
 msgstr ""
 
-#: archive.php:27
+#: archive.php:23
+#, php-format
 msgid "Yearly Archives: %s"
 msgstr ""
 
-#: archive.php:27
-msgctxt "yearly archives date format"
+#: archive.php:23
 msgid "Y"
 msgstr ""
 
-#: archive.php:29
+#: archive.php:25
+#, php-format
 msgid "Tag Archives: %s"
 msgstr ""
 
-#: archive.php:35
+#: archive.php:27
+#, php-format
 msgid "Category Archives: %s"
 msgstr ""
 
-#: archive.php:41
-msgid "Blog Archives"
+#: archive.php:29
+msgid "Archives"
 msgstr ""
 
-#: author.php:28
+#: author.php:26
+#, php-format
 msgid "Author Archives: %s"
 msgstr ""
 
-#: author.php:49 content.php:40
+#: author.php:47
+#: content-single.php:31
+#, php-format
 msgid "About %s"
 msgstr ""
 
-#: comments.php:31
-msgid "One thought on &ldquo;%2$s&rdquo;"
-msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] ""
-msgstr[1] ""
-
-#: comments.php:42
+#: comments.php:41
 msgid "Comment navigation"
 msgstr ""
 
-#: comments.php:43
+#: comments.php:42
 msgid "&larr; Older Comments"
 msgstr ""
 
-#: comments.php:44
+#: comments.php:43
 msgid "Newer Comments &rarr;"
 msgstr ""
 
-#: comments.php:51
+#: comments.php:50
 msgid "Comments are closed."
 msgstr ""
 
-#: content-aside.php:13 content-aside.php:21 content-image.php:17
-#: content-link.php:19 content-quote.php:18 content.php:17
+#: comments.php:56
+msgid "Name:"
+msgstr ""
+
+#: comments.php:57
+msgid "Email:"
+msgstr ""
+
+#: comments.php:58
+msgid "Website:"
+msgstr ""
+
+#: comments.php:61
+msgid "Comment:"
+msgstr ""
+
+#: content-aside.php:26
+#: content-audio.php:26
+#: content-gallery.php:42
+#: content-gallery.php:60
+#: content-image.php:26
+#: content-link.php:26
+#: content-quote.php:13
+#: content-status.php:23
+#: content-video.php:26
+#: content.php:36
+#, php-format
 msgid "Permalink to %s"
 msgstr ""
 
-#: content-aside.php:15 content-image.php:13 content-link.php:14
-#: content-quote.php:13 content.php:27
-msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+#: content-aside.php:34
+#: content-audio.php:34
+#: content-gallery.php:50
+#: content-gallery.php:68
+#: content-image.php:34
+#: content-link.php:34
+#: content-status.php:31
+#: content-video.php:34
+#: content.php:44
+msgid "Full Article"
 msgstr ""
 
-#: content-aside.php:20 content-link.php:18 content-page.php:21
-#: content-quote.php:17 content.php:33 functions.php:242 image.php:35
+#: content-aside.php:45
+#: content-audio.php:45
+#: content-gallery.php:81
+#: content-image.php:45
+#: content-link.php:45
+#: content-quote.php:32
+#: content-status.php:42
+#: content-video.php:45
+#: content.php:55
+msgid "Comment"
+msgstr ""
+
+#: content-aside.php:45
+#: content-audio.php:45
+#: content-gallery.php:81
+#: content-image.php:45
+#: content-link.php:45
+#: content-quote.php:32
+#: content-status.php:42
+#: content-video.php:45
+#: content.php:55
+msgid "1 Comment"
+msgstr ""
+
+#: content-aside.php:45
+#: content-audio.php:45
+#: content-gallery.php:81
+#: content-image.php:45
+#: content-link.php:45
+#: content-quote.php:32
+#: content-status.php:42
+#: content-video.php:45
+#: content.php:55
+msgid "% Comments"
+msgstr ""
+
+#: content-aside.php:48
+#: content-audio.php:48
+#: content-gallery.php:84
+#: content-image.php:48
+#: content-link.php:48
+#: content-page.php:19
+#: content-quote.php:35
+#: content-single.php:22
+#: content-status.php:45
+#: content-video.php:48
+#: content.php:58
 msgid "Edit"
 msgstr ""
 
-#: content-link.php:12
-msgid "Link"
-msgstr ""
-
-#: content-none.php:13 search.php:34
-msgid "Nothing Found"
-msgstr ""
-
-#: content-none.php:17
-msgid ""
-"Apologies, but no results were found. Perhaps searching will help find a "
-"related post."
-msgstr ""
-
-#: content-page.php:18 content.php:28 image.php:88
+#: content-page.php:16
+#: content-single.php:17
 msgid "Pages:"
 msgstr ""
 
-#: content.php:21
-msgid "Leave a reply"
+#: content-quote.php:23
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
-#: content.php:21
-msgid "1 Reply"
-msgstr ""
-
-#: content.php:21
-msgid "% Replies"
-msgstr ""
-
-#: content.php:44
+#: content-single.php:35
+#, php-format
 msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
-#. #-#-#-#-#  Leaf.pot (Hurst .6)  #-#-#-#-#
-#. Author URI of the plugin/theme
-#: footer.php:16
+#: content.php:19
+msgid "Featured"
+msgstr ""
+
+#: footer.php:26
+msgid "Footer Menu"
+msgstr ""
+
+#: footer.php:45
+msgid "http://wp-ultra.com/"
+msgstr ""
+
+#: footer.php:45
+msgid "Leaf Theme"
+msgstr ""
+
+#: footer.php:46
+msgid "powered by"
+msgstr ""
+
+#: footer.php:47
 msgid "http://wordpress.org/"
 msgstr ""
 
-#: footer.php:16
-msgid "Semantic Personal Publishing Platform"
+#: footer.php:47
+msgid "WordPress"
 msgstr ""
 
-#: footer.php:16
-msgid "Proudly powered by %s"
+#: header.php:37
+msgid "Header Menu"
 msgstr ""
 
-#: functions.php:67
-msgid "Primary Menu"
-msgstr ""
-
-#: functions.php:151
-msgid "Main Sidebar"
-msgstr ""
-
-#: functions.php:153
-msgid ""
-"Appears on posts and pages except the optional Homepage template, which uses "
-"its own set of widgets"
-msgstr ""
-
-#: functions.php:161
-msgid "Homepage Widgets"
-msgstr ""
-
-#: functions.php:163
-msgid ""
-"Appears when using the optional homepage template with a page set as Static "
-"Front Page"
-msgstr ""
-
-#: functions.php:183 single.php:20
-msgid "Post navigation"
-msgstr ""
-
-#: functions.php:184
-msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
-msgstr ""
-
-#: functions.php:185
-msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
-msgstr ""
-
-#: functions.php:210
-msgid "Pingback:"
-msgstr ""
-
-#: functions.php:210
-msgid "(Edit)"
-msgstr ""
-
-#: functions.php:225
-msgid "Post author"
-msgstr ""
-
-#. translators: 1: date, 2: time
-#: functions.php:231
-msgid "%1$s at %2$s"
-msgstr ""
-
-#: functions.php:237
-msgid "Your comment is awaiting moderation."
-msgstr ""
-
-#: functions.php:246
-msgid "Reply <span>&darr;</span>"
-msgstr ""
-
-#: functions.php:265 functions.php:268
-msgid ", "
-msgstr ""
-
-#: functions.php:279
-msgid "View all posts by %s"
-msgstr ""
-
-#: functions.php:285
-msgid "This entry was posted in %1$s and tagged %2$s on %3$s by %4$s."
-msgstr ""
-
-#: functions.php:287
-msgid "This entry was posted in %1$s on %3$s by %4$s."
-msgstr ""
-
-#: functions.php:289
-msgid "This entry was posted on %3$s by %4$s."
-msgstr ""
-
-#: header.php:34
-msgid "Show navigation"
-msgstr ""
-
-#: header.php:35
+#: header.php:38
+#: header.php:73
 msgid "Skip to content"
 msgstr ""
 
-#: image.php:24
-msgid ""
-"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
-"\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</"
-"time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s "
-"&times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery"
-"\">%8$s</a>"
+#: header.php:72
+msgid "Menu"
 msgstr ""
 
-#: image.php:39
+#: home.php:189
+msgid "More Articles"
+msgstr ""
+
+#: image.php:22
+#, php-format
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>."
+msgstr ""
+
+#: image.php:37
 msgid "&larr; Previous"
 msgstr ""
 
-#: image.php:40
+#: image.php:38
 msgid "Next &rarr;"
 msgstr ""
 
-#: inc/theme-options.php:63 inc/theme-options.php:180
-msgid "Enable Web Fonts"
-msgstr ""
-
-#: inc/theme-options.php:77 inc/theme-options.php:78
-msgid "Theme Options"
-msgstr ""
-
-#: inc/theme-options.php:111
-msgid ""
-"Yes, I&#8217;d like to enable the gorgeous, open-source <em>Open Sans</em> "
-"typeface."
-msgstr ""
-
-#: inc/theme-options.php:126
-msgid "%s Theme Options"
-msgstr ""
-
-#: inc/theme-options.php:167
-msgid "Fonts"
-msgstr ""
-
-#: index.php:37
+#: no-results.php:17
 msgid "No posts to display"
 msgstr ""
 
-#: index.php:41
+#: no-results.php:21
+#, php-format
 msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
 msgstr ""
 
-#: index.php:48
+#: no-results.php:26
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: no-results.php:32
 msgid "Nothing found"
 msgstr ""
 
-#: index.php:52
-msgid ""
-"Apologies, but no results were found for the requested archive. Perhaps "
-"searching will help find a related post."
+#: no-results.php:36
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
 msgstr ""
 
-#: search.php:18
+#: search.php:16
+#, php-format
 msgid "Search Results for: %s"
 msgstr ""
 
-#: search.php:38
-msgid ""
-"Sorry, but nothing matched your search criteria. Please try again with some "
-"different keywords."
+#: searchform.php:11
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:25
+msgid "Meta"
+msgstr ""
+
+#: single.php:20
+msgid "Post navigation"
 msgstr ""
 
 #: single.php:21
@@ -313,39 +302,249 @@ msgstr ""
 msgid "<span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
-#. Theme Name of the plugin/theme
-msgid "leaf"
+#: tmp-sitemap.php:20
+msgid "Pages"
 msgstr ""
 
-#. Theme URI of the plugin/theme
-msgid "http://wordpress.org/extend/themes/hurst"
+#: tmp-sitemap.php:28
+msgid "Feeds"
 msgstr ""
 
-#. Description of the plugin/theme
-msgid ""
-"The 2012 theme for WordPress is a fully responsive theme that looks great on "
-"any device. Features include a homepage template with a its own widgets, an "
-"optional display font, styling for post formats on both index and single "
-"views, and an optional no-sidebar page template. Make it yours with a custom "
-"menu, header image, and background."
+#: tmp-sitemap.php:39
+msgid "Categories"
 msgstr ""
 
-#. Author of the plugin/theme
-msgid "the WordPress team"
+#: tmp-sitemap.php:47
+msgid "Blog Posts"
 msgstr ""
 
-#. Tags of the plugin/theme
-msgid ""
-"light, gray, white, one-column, two-columns, right-sidebar, flexible-width, "
-"responsive-width, custom-background, custom-header, custom-menu, featured-"
-"images, full-width-template, microformats, post-formats, rtl-language-"
-"support, sticky-post, theme-options, translation-ready"
+#: includes/template-tags.php:44
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr ""
 
-#. Template Name of the plugin/theme
-msgid "Full-width page, no sidebar"
+#: includes/template-tags.php:45
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
-#. Template Name of the plugin/theme
-msgid "Homepage"
+#: includes/template-tags.php:80
+#, php-format
+msgid "%1$s at %2$s"
 msgstr ""
+
+#: includes/template-tags.php:81
+#: includes/template-tags.php:103
+msgid "(edit)"
+msgstr ""
+
+#: includes/template-tags.php:85
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/template-tags.php:103
+msgid "Pingback:"
+msgstr ""
+
+#: includes/template-tags.php:122
+#: includes/template-tags.php:125
+msgid ", "
+msgstr ""
+
+#: includes/template-tags.php:136
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: includes/template-tags.php:142
+#, php-format
+msgid "Posted by: %1$s <span class=\"spacer\">//</span> %2$s <span class=\"spacer\">//</span> %3$s <span class=\"spacer\">//</span> %4$s"
+msgstr ""
+
+#: includes/template-tags.php:144
+#, php-format
+msgid "Posted by: %1$s <span class=\"spacer\">//</span> %2$s <span class=\"spacer\">//</span> %4$s"
+msgstr ""
+
+#: includes/template-tags.php:146
+#, php-format
+msgid "Posted by: %1$s  //  %4$s"
+msgstr ""
+
+#: includes/theme-functions.php:46
+msgid "Primary Menu"
+msgstr ""
+
+#: includes/theme-functions.php:47
+msgid "Header Menu - Top (No dropdowns)"
+msgstr ""
+
+#: includes/theme-functions.php:48
+msgid "Footer Menu (No dropdowns)"
+msgstr ""
+
+#: includes/theme-functions.php:141
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: includes/theme-functions.php:198
+msgid "Main Sidebar"
+msgstr ""
+
+#: includes/theme-functions.php:200
+msgid "Appears on posts and pages but not on the homepage when the homepage widget area has widgets."
+msgstr ""
+
+#: includes/theme-functions.php:208
+msgid "Homepage Sidebar"
+msgstr ""
+
+#: includes/theme-functions.php:210
+msgid "Appears on the homepage page, leave empty to use the main sidebar on the home page."
+msgstr ""
+
+#: includes/theme-functions.php:218
+msgid "Header Widget"
+msgstr ""
+
+#: includes/theme-functions.php:220
+msgid "Appears inside the header area. Great for ads, search, or social buttons."
+msgstr ""
+
+#: includes/theme-functions.php:228
+msgid "Footer Area One"
+msgstr ""
+
+#: includes/theme-functions.php:230
+#: includes/theme-functions.php:240
+#: includes/theme-functions.php:250
+msgid "An optional widget area for your site footer"
+msgstr ""
+
+#: includes/theme-functions.php:238
+msgid "Footer Area Two"
+msgstr ""
+
+#: includes/theme-functions.php:248
+msgid "Footer Area Three"
+msgstr ""
+
+#: includes/admin/help.php:26
+msgid "General"
+msgstr ""
+
+#: includes/admin/help.php:32
+msgid "FAQ"
+msgstr ""
+
+#: includes/admin/help.php:38
+msgid "License"
+msgstr ""
+
+#: includes/admin/help.php:44
+msgid "Donate"
+msgstr ""
+
+#: includes/admin/theme-options.php:32
+msgid " Leaf Options"
+msgstr ""
+
+#: includes/admin/theme-options.php:32
+msgid "Leaf Options"
+msgstr ""
+
+#: includes/admin/theme-options.php:65
+msgid "Theme Layout"
+msgstr ""
+
+#: includes/admin/theme-options.php:66
+msgid "Choose Your theme layout."
+msgstr ""
+
+#: includes/admin/theme-options.php:70
+msgid "Theme Accent Color"
+msgstr ""
+
+#: includes/admin/theme-options.php:71
+msgid "Changes the theme accent color (Default #C4302B)"
+msgstr ""
+
+#: includes/admin/theme-options.php:74
+msgid "Google Fonts"
+msgstr ""
+
+#: includes/admin/theme-options.php:75
+msgid "Check to remove Google Fonts. (Oswald and PT Sans)"
+msgstr ""
+
+#: includes/admin/theme-options.php:77
+msgid "Slider transition effects"
+msgstr ""
+
+#: includes/admin/theme-options.php:78
+msgid "Slider transition effects."
+msgstr ""
+
+#: includes/admin/theme-options.php:83
+msgid "Slider speed"
+msgstr ""
+
+#: includes/admin/theme-options.php:84
+msgid "Slider speed in milliseconds."
+msgstr ""
+
+#: includes/admin/theme-options.php:88
+msgid "Sidebar Column"
+msgstr ""
+
+#: includes/admin/theme-options.php:89
+msgid "Sidebar column width."
+msgstr ""
+
+#: includes/admin/theme-options.php:94
+msgid "Home Page Categories"
+msgstr ""
+
+#: includes/admin/theme-options.php:95
+msgid "You can choose multiple categories by holding the <code>Ctrl</code> key while selecting."
+msgstr ""
+
+#: includes/admin/theme-options.php:98
+msgid "Custom CSS "
+msgstr ""
+
+#: includes/admin/theme-options.php:99
+msgid "The most important use for this area is to enter custom CSS rules to control the look of your site."
+msgstr ""
+
+#: includes/admin/theme-options.php:112
+msgid "Theme Options"
+msgstr ""
+
+#: includes/admin/theme-options.php:113
+msgid "Refer to the contextual help screen in the top right hand corner for help with the theme. "
+msgstr ""
+
+#: includes/admin/theme-options.php:123
+msgid "Leaf options reset."
+msgstr ""
+
+#: includes/admin/theme-options.php:125
+msgid "Leaf options saved."
+msgstr ""
+
+#: includes/admin/theme-options.php:252
+msgid "Save All Changes"
+msgstr ""
+
+#: includes/admin/theme-options.php:280
+msgid "Like the Theme? Help it stay up to date."
+msgstr ""
+
+#: includes/admin/theme-options.php:287
+msgid "Reset / Delete Settings"
+msgstr ""
+
+#: includes/admin/theme-options.php:289
+msgid "<font color#222><b>Caution:</b></font> All entries will be deleted from database."
+msgstr ""
+
