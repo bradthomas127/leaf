@@ -8,12 +8,8 @@
 
 get_header(); ?>
 
-	<?php
-    $limit = get_option('posts_per_page');
-    $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-    query_posts('showposts=' . $limit . '&paged=' . $paged);
-    $wp_query->is_archive = true; $wp_query->is_home = false;
-    ?>
+	<?php if ( get_query_var('paged') ) $paged = get_query_var('paged'); elseif ( get_query_var('page') ) $paged = get_query_var('page'); else $paged = 1; ?>
+	<?php query_posts("post_type=post&paged=$paged"); ?>
 
 	<div id="primary" class="site-content <?php echo leaf_grid_width( 'content' ); ?> columns">
 		<div id="content" role="main">

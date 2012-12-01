@@ -4,10 +4,10 @@ Theme URI: http://fatboythemes.com/themes/leaf/
 Author: Brad Thomas
 Author URI: http://wp-ultra.com
 Description: The Leaf theme is a stylish and customizable WordPress theme. Make it yours with the easy customizable theme options. Uses Superfish menu effects, built-in pagination for post pages, special styles for eight different post formats, and a responsive layout for mobile devices.
-Version: 0.7
+Version: 1.0
 License: GNU General Public License v2 or later
 License URI: license.txt
-Tags: light, white, gray, one-column, two-columns, right-sidebar, flexible-width, custom-background, custom-header, flexible-header, custom-colors, custom-menu, editor-style, featured-images, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
+Tags: light, white, gray, one-column, two-columns, right-sidebar, flexible-width, custom-background, custom-header, custom-colors, custom-menu, editor-style, featured-images, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -140,6 +140,10 @@ a:hover {
 i, cite, em, var, address, dfn {
 	font-style: italic;
 }
+strong {
+	font-weight: bold;
+}
+
 big {
 	font-size: 120%;
 }
@@ -315,6 +319,9 @@ img { -ms-interpolation-mode: bicubic; }
 }
 
 /* Sidebar header */
+.site-header .widget-area.six.columns {
+	width: 49.8%;
+}
 .site-header .widget-area {
 	margin-top: 5px;
 	margin-top: .5rem;
@@ -1284,7 +1291,7 @@ article.format-quote .entry-content blockquote {
 	color: #666;
 	background: #efefef;
 }
-
+.sticky {}
 /* --------------------------------------------------------------
  * = Page Templates
  * ----------------------------------------------------------- */
@@ -1462,7 +1469,10 @@ article.format-quote .entry-content blockquote {
 .footer-sidebar.three .widget-area + .widget-area + .widget-area {
 	margin-right: 0;
 }
-
+.site-footer .widget-area .widget {
+	margin-bottom: 20px;
+	margin-bottom: 2rem;
+}
 /* --------------------------------------------------------------
  * = Widgets
  * ----------------------------------------------------------- */

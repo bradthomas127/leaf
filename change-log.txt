@@ -2,10 +2,20 @@
 Contributors: bradthomas127
 Tags: 
 Requires at least: 3.3
-Tested up to: 3.5 Beta 2
+Tested up to: 3.5 RC 2
 
 == Change Log ==
 This change log was started beginning with Version 1.0
 
 = Changes Version 1.0 =
+* Last Version was supposed to be 1.0 but i forgot to change in the style sheet before upload.
+* Fixed the Homepage Sidebar title.
+* Fixed the blog template from messing up if set to Front page in the reading settings.
+* Added styling for bold. <= bangs head...
+* Fixed Homepage Sidebar description in case using another page as a front page from the reading settings.
+* Fixed slider for RTL.
+* Added French language. <= thanks wp trads.
+* Re-generated leaf.pot file.
+
+= Changes Version 0.7 =
 * Lets Do This!

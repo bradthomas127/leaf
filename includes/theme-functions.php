@@ -207,10 +207,10 @@ function leaf_widgets_init() {
 	register_sidebar( array(
 		'name' => __( 'Homepage Sidebar', 'leaf' ),
 		'id' => 'sidebar-home',
-		'description' => __( 'Appears on the homepage page, leave empty to use the main sidebar on the home page.', 'leaf' ),
+		'description' => __( 'Appears on the "default" homepage page, leave empty to use the main sidebar on the home page.', 'leaf' ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget' => '</aside>',
-		'before_title' => '<h3 class="widget-title divider-title "><span>',
+		'before_title' => '<h3 class="widget-title"><span>',
 		'after_title' => '</span></h3>',
 	) );
 	

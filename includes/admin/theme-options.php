@@ -31,7 +31,7 @@ function leaf_create_menu() {
 	//create new top-level menu.
 	$leaf_page = add_theme_page( __( ' Leaf Options', 'leaf' ), __( 'Leaf Options','leaf' ), 'edit_theme_options', basename(__FILE__), 'leaf_settings_page' );
 	
-// Adds my_help_tab when my_admin_page loads
+	// Adds leaf_add_help_tab when my_admin_page loads.
     add_action('load-'.$leaf_page, 'leaf_add_help_tab');
 	// Using registered $leaf_page handle to hook script load.
 	add_action('admin_print_styles-' . $leaf_page, 'leaf_add_init');
@@ -89,8 +89,7 @@ $leaf_settings = array (
 			"desc" => __( 'Sidebar column width.','leaf'),
 			'std' => 'Four',
 			'value' => array( 'Four', 'Three')),
-	
-		// Multi-select
+
 	array(  "name" => __( 'Home Page Categories','leaf'), 'id' => $leaf_shortname.'_home_cats', 'type' => 'multi-select',
 			"desc" => __( 'You can choose multiple categories by holding the <code>Ctrl</code> key while selecting.','leaf'),
 			'std' => ''),
@@ -336,13 +335,13 @@ function leaf_theme_options_validate( $input ) {
 }
 
 /**
- * Add a style block to the theme for the current link color.
+ * Add a custom style block to the header.
  *
  * This function is attached to the wp_head action hook.
  *
  * @since Leaf 1.0
  */
-function leaf_print_link_color_style() {
+function leaf_print_custom_style() {
 	$options = get_option('leaf_theme_options');
 
 	if ( isset ($options['leaf_theme_layout']) && ($options['leaf_theme_layout'] != 'boxed') ) {
@@ -375,5 +374,5 @@ function leaf_print_link_color_style() {
 	echo stripslashes($output);
 
 }
-add_action( 'wp_head', 'leaf_print_link_color_style' );
+add_action( 'wp_head', 'leaf_print_custom_style' );
 ?>
