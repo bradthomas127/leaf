@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the Leaf package.
 msgid ""
 msgstr ""
-"Project-Id-Version: Leaf 1.0\n"
+"Project-Id-Version: Leaf 1.0.4\n"
 "Report-Msgid-Bugs-To: http://wp-ultra.com\n"
-"POT-Creation-Date: 2012-12-01 14:25-0500\n"
-"PO-Revision-Date: 2012-12-01 14:26-0500\n"
+"POT-Creation-Date: 2012-12-23 14:43-0500\n"
+"PO-Revision-Date: 2012-12-23 14:43-0500\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -239,7 +239,7 @@ msgstr ""
 msgid "Menu"
 msgstr ""
 
-#: home.php:189
+#: home.php:196
 msgid "More Articles"
 msgstr ""
 
@@ -356,17 +356,17 @@ msgstr ""
 
 #: includes/template-tags.php:142
 #, php-format
-msgid "Posted by: %1$s <span class=\"spacer\">//</span> %2$s <span class=\"spacer\">//</span> %3$s <span class=\"spacer\">//</span> %4$s"
+msgid "<span class=\"posted-by\">Posted by: %1$s </span><span class=\"spacer\">//</span> %2$s <span class=\"spacer\">//</span> %3$s <span class=\"spacer\">//</span> %4$s"
 msgstr ""
 
 #: includes/template-tags.php:144
 #, php-format
-msgid "Posted by: %1$s <span class=\"spacer\">//</span> %2$s <span class=\"spacer\">//</span> %4$s"
+msgid "<span class=\"posted-by\">Posted by: %1$s </span><span class=\"spacer\">//</span> %2$s <span class=\"spacer\">//</span> %4$s"
 msgstr ""
 
 #: includes/template-tags.php:146
 #, php-format
-msgid "Posted by: %1$s  //  %4$s"
+msgid "<span class=\"posted-by\">Posted by: %1$s </span> //  %4$s"
 msgstr ""
 
 #: includes/theme-functions.php:46
@@ -477,74 +477,90 @@ msgid "Check to remove Google Fonts. (Oswald and PT Sans)"
 msgstr ""
 
 #: includes/admin/theme-options.php:77
-msgid "Slider transition effects"
+msgid "Slider Category"
 msgstr ""
 
 #: includes/admin/theme-options.php:78
+msgid "Select a single category or all categories for the slider."
+msgstr ""
+
+#: includes/admin/theme-options.php:81
+msgid "Slider transition effects"
+msgstr ""
+
+#: includes/admin/theme-options.php:82
 msgid "Slider transition effects."
 msgstr ""
 
-#: includes/admin/theme-options.php:83
+#: includes/admin/theme-options.php:86
 msgid "Slider speed"
 msgstr ""
 
-#: includes/admin/theme-options.php:84
+#: includes/admin/theme-options.php:87
 msgid "Slider speed in milliseconds."
 msgstr ""
 
-#: includes/admin/theme-options.php:88
+#: includes/admin/theme-options.php:91
 msgid "Sidebar Column"
 msgstr ""
 
-#: includes/admin/theme-options.php:89
+#: includes/admin/theme-options.php:92
 msgid "Sidebar column width."
 msgstr ""
 
-#: includes/admin/theme-options.php:93
+#: includes/admin/theme-options.php:96
 msgid "Home Page Categories"
 msgstr ""
 
-#: includes/admin/theme-options.php:94
+#: includes/admin/theme-options.php:97
 msgid "You can choose multiple categories by holding the <code>Ctrl</code> key while selecting."
 msgstr ""
 
-#: includes/admin/theme-options.php:97
+#: includes/admin/theme-options.php:100
+msgid "Number of More Articles"
+msgstr ""
+
+#: includes/admin/theme-options.php:101
+msgid "Number of post to display in the more articles section on the \"default\" home page."
+msgstr ""
+
+#: includes/admin/theme-options.php:105
 msgid "Custom CSS "
 msgstr ""
 
-#: includes/admin/theme-options.php:98
+#: includes/admin/theme-options.php:106
 msgid "The most important use for this area is to enter custom CSS rules to control the look of your site."
 msgstr ""
 
-#: includes/admin/theme-options.php:111
+#: includes/admin/theme-options.php:119
 msgid "Theme Options"
 msgstr ""
 
-#: includes/admin/theme-options.php:112
+#: includes/admin/theme-options.php:120
 msgid "Refer to the contextual help screen in the top right hand corner for help with the theme. "
 msgstr ""
 
-#: includes/admin/theme-options.php:122
+#: includes/admin/theme-options.php:130
 msgid "Leaf options reset."
 msgstr ""
 
-#: includes/admin/theme-options.php:124
+#: includes/admin/theme-options.php:132
 msgid "Leaf options saved."
 msgstr ""
 
-#: includes/admin/theme-options.php:251
+#: includes/admin/theme-options.php:272
 msgid "Save All Changes"
 msgstr ""
 
-#: includes/admin/theme-options.php:279
+#: includes/admin/theme-options.php:300
 msgid "Like the Theme? Help it stay up to date."
 msgstr ""
 
-#: includes/admin/theme-options.php:286
+#: includes/admin/theme-options.php:307
 msgid "Reset / Delete Settings"
 msgstr ""
 
-#: includes/admin/theme-options.php:288
+#: includes/admin/theme-options.php:309
 msgid "<font color#222><b>Caution:</b></font> All entries will be deleted from database."
 msgstr ""
 

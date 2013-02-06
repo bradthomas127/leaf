@@ -217,10 +217,6 @@ msgstr "http://wp-ultra.com/"
 msgid "Leaf Theme"
 msgstr "Thème Leaf"
 
-#: footer.php:46
-msgid "powered by"
-msgstr "traduit par <a href=\"http://www.wptrads.fr\">Wp Trads</a> & propulsé par"
-
 #: footer.php:47
 msgid "http://wordpress.org/"
 msgstr "http://wordpress.org/"

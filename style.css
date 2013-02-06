@@ -4,7 +4,7 @@ Theme URI: http://fatboythemes.com/themes/leaf/
 Author: Brad Thomas
 Author URI: http://wp-ultra.com
 Description: The Leaf theme is a stylish and customizable WordPress theme. Make it yours with the easy customizable theme options. Uses Superfish menu effects, built-in pagination for post pages, special styles for eight different post formats, and a responsive layout for mobile devices.
-Version: 1.0
+Version: 1.0.4
 License: GNU General Public License v2 or later
 License URI: license.txt
 Tags: light, white, gray, one-column, two-columns, right-sidebar, flexible-width, custom-background, custom-header, custom-colors, custom-menu, editor-style, featured-images, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready
@@ -1922,7 +1922,7 @@ textarea#comment {
 .lt-ie9 .caption3 { top: 130px !important; }
 .lt-ie9 .caption1 { top: 170px !important; width: 530px !important; }
 .lt-ie9 .comment-form-author, .lt-ie9 .comment-form-email, .lt-ie9 .comment-form-url, .lt-ie9 .comment-form-comment {padding-bottom: 5px;}
-
+.lt-ie9 #secondary { float: right; }
 .lt-ie9 img.size-full, 
 .lt-ie9 img.size-large, 
 .lt-ie9 img.header-image, 

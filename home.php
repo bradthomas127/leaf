@@ -13,13 +13,18 @@ $no_duplicates = array(); ?>
 	<div id="primary" class="site-content <?php echo leaf_grid_width( 'content' ); ?> columns">
 		<div id="content" role="main">
 			<article class="post-home">
-			
-				
+
 				<?php /********* Slider Section. *********/ ?>
 				
 				<div id="iview">
 				
-					<?php $args = ( array( 'posts_per_page' => 5, 'post__not_in' => get_option( 'sticky_posts' ) ) ); ?>
+					<?php 
+						if ( ! isset( $options['leaf_slider_cat']) || $options['leaf_slider_cat'] == -1 ) {
+							$args = ( array( 'posts_per_page' => 5, 'post__not_in' => get_option( 'sticky_posts' ) ) );
+						} else {
+							$args = ( array( 'posts_per_page' => 5, 'category__in' => $options['leaf_slider_cat'], 'post__not_in' => get_option( 'sticky_posts' ) ) );
+						}
+					?>  
 
 					<?php $loop = new WP_Query( $args ); ?>
 
@@ -179,8 +184,10 @@ $no_duplicates = array(); ?>
 
 				
 				<?php /********* Articles Section. *********/ ?>
+				
+				<?php $articles = (!empty($options['leaf_more_articles_number'])) ? ($options['leaf_more_articles_number']) : 2; ?>
 
-				<?php $loop = new WP_Query( array( 'posts_per_page' => 2, 'post__not_in' => $no_duplicates ) ); ?>
+				<?php $loop = new WP_Query( array( 'posts_per_page' => $articles, 'post__not_in' => $no_duplicates, 'orderby' => 'date', 'order' => 'DESC' ) ); ?>
 
 				<?php if ( $loop->have_posts() ) : ?>
 				

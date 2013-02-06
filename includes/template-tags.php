@@ -139,11 +139,11 @@ function leaf_entry_meta() {
 
 	// Translators: 1 author's name, 2 category, 3 tag's, and 4 is the date.
 	if ( '' != $tag_list ) {
-		$utility_text = __( 'Posted by: %1$s <span class="spacer">//</span> %2$s <span class="spacer">//</span> %3$s <span class="spacer">//</span> %4$s', 'leaf' );
+		$utility_text = __( '<span class="posted-by">Posted by: %1$s </span><span class="spacer">//</span> %2$s <span class="spacer">//</span> %3$s <span class="spacer">//</span> %4$s', 'leaf' );
 	} elseif ( ! empty( $categories_list ) && leaf_is_categorized_site() ) {
-		$utility_text = __( 'Posted by: %1$s <span class="spacer">//</span> %2$s <span class="spacer">//</span> %4$s', 'leaf' );
+		$utility_text = __( '<span class="posted-by">Posted by: %1$s </span><span class="spacer">//</span> %2$s <span class="spacer">//</span> %4$s', 'leaf' );
 	} else {
-		$utility_text = __( 'Posted by: %1$s  //  %4$s', 'leaf' );
+		$utility_text = __( '<span class="posted-by">Posted by: %1$s </span> //  %4$s', 'leaf' );
 	}
 
 	printf(

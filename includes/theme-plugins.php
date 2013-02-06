@@ -20,7 +20,7 @@ function leaf_ivew_slider_plugin() {
 	$speed = (!empty($options['leaf_slider_speed'])) ? ($options['leaf_slider_speed']) : '7000';
 	$timer = (!empty($options['leaf_highlight_color'])) ? ($options['leaf_highlight_color']) : '#C4302B';
 	
-	if ( is_front_page() ) { ?>
+	if ( is_home() || is_front_page() ) { ?>
 	
 		<script type="text/javascript">
 			jQuery(document).ready(function($){
@@ -62,7 +62,7 @@ add_action('wp_footer','leaf_ivew_slider_plugin',30);
  */
 if (!function_exists('leaf_pagination')):
 
-	function leaf_pagination($pages = '', $range = 3) {   /* handle pagination for post pages*/
+	function leaf_pagination($pages = '', $range = 5) {   /* handle pagination for post pages*/
 		$showitems = ($range * 2)+1;  
 		 
 		global $paged;
@@ -154,22 +154,33 @@ if (!function_exists('leaf_get_post_image')):
  
 	function leaf_get_post_image($image_id = null, $post_id = null, $use_attachments = false, $url = null, $size = 'large') {
 		global $id,$blog_id;
+		$thumbnail_id = get_post_thumbnail_id();
 		$post_id = ( $post_id == null ) ? $id : $post_id;
 		$attachment = array();
 
-		// if a URL is specified, use that.
+		// If a URL is specified, use that.
 		if ($url)
 			return $url;
 
-		// if image_id is specified, use that.
+		// If image_id is specified, use that.
 		elseif ($image_id)
 			$attachment = wp_get_attachment_image_src( $image_id, $size );
-
-		// if not, let's use the post's featured image.
+			
+		// Check to see if NextGen Gallery is present.
+		elseif(stripos($thumbnail_id,'ngg-') !== false && class_exists('nggdb')){
+			$nggImage = nggdb::find_image(str_replace('ngg-','',$thumbnail_id));
+			$attachment = array(
+				$nggImage->imageURL,
+				$nggImage->width,
+				$nggImage->height
+			);
+		}
+		
+		// If not, let's use the post's featured image.
 		elseif ( has_post_thumbnail( $post_id) )
 			$attachment = wp_get_attachment_image_src( get_post_thumbnail_id( $post_id ), $size );
 
-		// otherwise, and only if we want to, just use the last image attached to the post.
+		// Otherwise, and only if we want to, just use the last image attached to the post.
 		elseif ( $use_attachments == true ) {
 			$images = get_children(array(
 				'post_parent' => $post_id,

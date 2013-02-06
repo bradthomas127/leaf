@@ -10,7 +10,7 @@ get_header(); ?>
 	<div id="primary" class="site-content <?php echo leaf_grid_width( 'content' ); ?> columns">
 		<div id="content" role="main">
 		
-			<?php leaf_page_after(); // Before page hook. ?>
+			<?php leaf_page_before(); // Before page hook. ?>
 
 			<?php while ( have_posts() ) : the_post(); ?>
 			

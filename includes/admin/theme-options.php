@@ -74,11 +74,14 @@ $leaf_settings = array (
 	array(  "name" => __( "Google Fonts",'leaf'), "id" => $leaf_shortname."_google_fonts", "type" => "checkbox",
 			"desc" => __( "Check to remove Google Fonts. (Oswald and PT Sans)",'leaf')),
 
+	array(  "name" => __( 'Slider Category','leaf'), 'id' => $leaf_shortname.'_slider_cat', 'type' => 'select-cat',
+			"desc" => __( 'Select a single category or all categories for the slider.','leaf'),
+			'std' => ''),
+	
 	array(  "name" => __( 'Slider transition effects','leaf'), 'id' => $leaf_shortname.'_slider_transition', 'type' => 'select',
 			"desc" => __( 'Slider transition effects.','leaf'),
 			'std' => 'random',
 			'value' => array( 'random', 'slide-in-left', 'block-expand', 'block-random', 'left-curtain' )),
-
 
 	array(  "name" => __( 'Slider speed','leaf'), 'id' => $leaf_shortname.'_slider_speed', 'type' => 'select',
 			"desc" => __( 'Slider speed in milliseconds.','leaf'),
@@ -93,6 +96,11 @@ $leaf_settings = array (
 	array(  "name" => __( 'Home Page Categories','leaf'), 'id' => $leaf_shortname.'_home_cats', 'type' => 'multi-select',
 			"desc" => __( 'You can choose multiple categories by holding the <code>Ctrl</code> key while selecting.','leaf'),
 			'std' => ''),
+			
+	array(  "name" => __( 'Number of More Articles','leaf'), 'id' => $leaf_shortname.'_more_articles_number', 'type' => 'select',
+			"desc" => __( 'Number of post to display in the more articles section on the "default" home page.','leaf'),
+			'std' => '2',
+			'value' => array( '2', '3', '4', '5', '6', '7', '8', '9', '10')),
 
 	array( "name" => __( 'Custom CSS ','leaf'),
 			"desc" => __( 'The most important use for this area is to enter custom CSS rules to control the look of your site.','leaf'),
@@ -200,8 +208,21 @@ function leaf_settings_page() {
 
 								<?php
 								break;
+								
+								case 'select-cat':		// Category Select Drop downs. ?>
 
-								case 'multi-select':	// Select Drop downs. ?>
+									<tr valign="top">
+										<th scope="row"><label for="<?php echo $leaf_option_name.'['.$valueid.']'; ?>"><?php echo $value['name']; ?></label></th>
+										<td>
+											<?php wp_dropdown_categories(array('name' => 'leaf_theme_options[leaf_slider_cat]', 'selected' => $options['leaf_slider_cat'], 'orderby' => 'Name' ,'show_option_none' => 'All Categories', 'hide_empty' => 1 )); ?>
+											<p class="description"><?php echo $value['desc']; ?></p>
+										</td>
+									</tr>
+
+								<?php
+								break;
+
+								case 'multi-select':	// Multi-Select Drop downs. ?>
 
 									<tr valign="top">
 										<th scope="row"><label for="<?php echo $leaf_option_name.'['.$valueid.']'; ?>"><?php echo $value['name']; ?></label></th>
@@ -307,6 +328,9 @@ function leaf_theme_options_validate( $input ) {
 	foreach ( $leaf_settings as $value ) {
 		switch ( $value['type'] ) {
 			case 'select':
+				$input[$value['id']] = wp_filter_nohtml_kses( $input[$value['id']] );
+				break;
+			case 'select-cat':
 				$input[$value['id']] = wp_filter_nohtml_kses( $input[$value['id']] );
 				break;
 			case 'ctext':

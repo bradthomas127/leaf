@@ -2,10 +2,27 @@
 Contributors: bradthomas127
 Tags: 
 Requires at least: 3.3
-Tested up to: 3.5 RC 2
+Tested up to: 3.5
 
 == Change Log ==
 This change log was started beginning with Version 1.0
+
+= Changes Version 1.0.4 =
+* Fixed sidebar for IE8.
+* 
+
+= Changes Version 1.0.4 =
+* Set the "More Articles" option to select more post to display.
+* Hopefully fixed the category select option for the slider.
+* Put a class on posted by text.
+* Noticed/removed a link from the translations. <= Sneaky...   
+* Re-generated leaf.pot file.
+
+= Changes Version 1.0.2 =
+* Added an option to set more post to display in the "More Articles" section on the home page.
+* Added an option to select a category to display in the slider.
+* Fixed featured images to display if set from NextGen Gallery.  
+* Re-generated leaf.pot file.
 
 = Changes Version 1.0 =
 * Last Version was supposed to be 1.0 but i forgot to change in the style sheet before upload.
@@ -14,7 +31,7 @@ This change log was started beginning with Version 1.0
 * Added styling for bold. <= bangs head...
 * Fixed Homepage Sidebar description in case using another page as a front page from the reading settings.
 * Fixed slider for RTL.
-* Added French language. <= thanks wp trads.
+* Added French language.
 * Re-generated leaf.pot file.
 
 = Changes Version 0.7 =

@@ -88,7 +88,7 @@ function leaf_scripts_styles() {
 	wp_enqueue_script( 'jquery-plugins', get_template_directory_uri() . '/js/plugins.js', array( 'jquery' ), '0', true );
 	
 	// Load ivew slider on the front page.
-	if ( is_front_page() ) {
+	if ( is_home() || is_front_page() ) {
 		wp_enqueue_style( 'ivew-slider-css', get_template_directory_uri() . '/js/iView/css/iview.css', array(), '0', 'all' );
 		wp_enqueue_script( 'ivew-slider-js', get_template_directory_uri() . '/js/iView/iview.min.js', array( 'jquery' ), '0', true );
 		wp_enqueue_script( 'jquery-easing', get_template_directory_uri() . '/js/iView/jquery.easing.js', array( 'jquery' ), '0', true );
