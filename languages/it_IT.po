@@ -1,0 +1,580 @@
+# Copyright (C) Leaf
+# This file is distributed under the same license as the Leaf package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Leaf 1.0.4\n"
+"Report-Msgid-Bugs-To: http://wp-ultra.com\n"
+"POT-Creation-Date: 2012-12-23 14:43-0500\n"
+"PO-Revision-Date: 2013-11-06 07:39+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.5.7\n"
+
+#: 404.php:16
+msgid "404"
+msgstr "404"
+
+#: 404.php:17
+msgid "Oops!"
+msgstr "Accidenti!"
+
+#: 404.php:18
+msgid "We are really sorry but the page you requested can not be found."
+msgstr "Siamo molto dispiacienti ma la pagina che cerchi non si trova."
+
+#: 404.php:23
+msgid ""
+"It seems that the page you were trying to reach does not exist anymore, or "
+"maybe it has moved, we think the best thing to do is to start again from the "
+"home page or try searching for the page."
+msgstr ""
+"Sembra che la pagina che cerchi non esista più, oppure che è stata spostata. "
+"Forse è meglio cominciare da capo dalla pagine iniziale o fare una ricerca."
+
+#: archive.php:19
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Archivi Giornalieri: %s"
+
+#: archive.php:21
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Archivi Mensili: %s"
+
+#: archive.php:21
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:23
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Archivi Annuali: %s"
+
+#: archive.php:23
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:25
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Archivi per tag: %s"
+
+#: archive.php:27
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Archivi per categoria: %s"
+
+#: archive.php:29
+msgid "Archives"
+msgstr "Archivi"
+
+#: author.php:26
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Archivi per autore: %s"
+
+#: author.php:47 content-single.php:31
+#, php-format
+msgid "About %s"
+msgstr "Cerca %s"
+
+#: comments.php:41
+msgid "Comment navigation"
+msgstr "Navigazione commenti"
+
+#: comments.php:42
+msgid "&larr; Older Comments"
+msgstr "&larr; Comments precedenti"
+
+#: comments.php:43
+msgid "Newer Comments &rarr;"
+msgstr "Commenti più recenti &rarr;"
+
+#: comments.php:50
+msgid "Comments are closed."
+msgstr "Basta commenti."
+
+#: comments.php:56
+msgid "Name:"
+msgstr "Nome:"
+
+#: comments.php:57
+msgid "Email:"
+msgstr "Email:"
+
+#: comments.php:58
+msgid "Website:"
+msgstr "Sito:"
+
+#: comments.php:61
+msgid "Comment:"
+msgstr "Commento:"
+
+#: content-aside.php:26 content-audio.php:26 content-gallery.php:42
+#: content-gallery.php:60 content-image.php:26 content-link.php:26
+#: content-quote.php:13 content-status.php:23 content-video.php:26
+#: content.php:36
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permalink a %s"
+
+#: content-aside.php:34 content-audio.php:34 content-gallery.php:50
+#: content-gallery.php:68 content-image.php:34 content-link.php:34
+#: content-status.php:31 content-video.php:34 content.php:44
+msgid "Full Article"
+msgstr "L'articolo intero"
+
+#: content-aside.php:45 content-audio.php:45 content-gallery.php:81
+#: content-image.php:45 content-link.php:45 content-quote.php:32
+#: content-status.php:42 content-video.php:45 content.php:55
+msgid "Comment"
+msgstr "Commento"
+
+#: content-aside.php:45 content-audio.php:45 content-gallery.php:81
+#: content-image.php:45 content-link.php:45 content-quote.php:32
+#: content-status.php:42 content-video.php:45 content.php:55
+msgid "1 Comment"
+msgstr "1 commento"
+
+#: content-aside.php:45 content-audio.php:45 content-gallery.php:81
+#: content-image.php:45 content-link.php:45 content-quote.php:32
+#: content-status.php:42 content-video.php:45 content.php:55
+msgid "% Comments"
+msgstr "% commenti"
+
+#: content-aside.php:48 content-audio.php:48 content-gallery.php:84
+#: content-image.php:48 content-link.php:48 content-page.php:19
+#: content-quote.php:35 content-single.php:22 content-status.php:45
+#: content-video.php:48 content.php:58
+msgid "Edit"
+msgstr "Modifica"
+
+#: content-page.php:16 content-single.php:17
+msgid "Pages:"
+msgstr "Pagine:"
+
+#: content-quote.php:23
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Leggere ancora <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-single.php:35
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Vedi tutti gli articoli da %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: content.php:19
+msgid "Featured"
+msgstr "Evidenziato"
+
+#: footer.php:26
+msgid "Footer Menu"
+msgstr ""
+
+#: footer.php:45
+msgid "http://fatboythemes.com/themes/leaf/"
+msgstr ""
+
+#: footer.php:45
+msgid "Leaf Theme"
+msgstr ""
+
+#: footer.php:46
+msgid "powered by"
+msgstr "per"
+
+#: footer.php:47
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: footer.php:47
+msgid "WordPress"
+msgstr ""
+
+#: header.php:37
+msgid "Header Menu"
+msgstr ""
+
+#: header.php:38 header.php:73
+msgid "Skip to content"
+msgstr "Vai al contenuto"
+
+#: header.php:72
+msgid "Menu"
+msgstr ""
+
+#: home.php:196
+msgid "More Articles"
+msgstr "Altri articoli"
+
+#: image.php:22
+#, php-format
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
+"\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></"
+"span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; "
+"%5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</"
+"a>."
+msgstr ""
+"<span class=\"meta-prep meta-prep-entry-date\">Pubblicato </span> <span "
+"class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</"
+"time></span> a <a href=\"%3$s\" title=\"Link al immagine intero\">%4$s "
+"&times; %5$s</a> in <a href=\"%6$s\" title=\"Torna a %7$s\" rel=\"gallery\">"
+"%8$s</a>."
+
+#: image.php:37
+msgid "&larr; Previous"
+msgstr "&larr; Precedente"
+
+#: image.php:38
+msgid "Next &rarr;"
+msgstr "Successivo &rarr;"
+
+#: no-results.php:17
+msgid "No posts to display"
+msgstr "Nessun articolo da visualizzare"
+
+#: no-results.php:21
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr ""
+"Pronto/a a publiccare il tuo primo articolo? <a href=\"%s\">Comincia qua</a>."
+
+#: no-results.php:26
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "Siamo spiacenti, non c'è alcun risultato. Riprova con termini diversi."
+
+#: no-results.php:32
+msgid "Nothing found"
+msgstr "Nessun risultato"
+
+#: no-results.php:36
+msgid ""
+"Apologies, but no results were found for the requested archive. Perhaps "
+"searching will help find a related post."
+msgstr ""
+"Siamo spiacenti, non si trova alcun risultato per l'archivo richiesto. Forse "
+"la funzionalità \"cerca\" sarà più efficace."
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Risultati per: %s"
+
+#: searchform.php:11
+msgid "Search"
+msgstr "Cerca"
+
+#: sidebar.php:25
+msgid "Meta"
+msgstr ""
+
+#: single.php:20
+msgid "Post navigation"
+msgstr "Navigazione articolo"
+
+#: single.php:21
+msgid "<span class=\"meta-nav\">&larr;</span>"
+msgstr ""
+
+#: single.php:22
+msgid "<span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: tmp-sitemap.php:20
+msgid "Pages"
+msgstr "Pagine"
+
+#: tmp-sitemap.php:28
+msgid "Feeds"
+msgstr "Feed"
+
+#: tmp-sitemap.php:39
+msgid "Categories"
+msgstr "Categorie"
+
+#: tmp-sitemap.php:47
+msgid "Blog Posts"
+msgstr "Articoli"
+
+#: includes/template-tags.php:44
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Articoli precedenti"
+
+#: includes/template-tags.php:45
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Articoli successivi <span class=\"meta-nav\">&rarr;</span>"
+
+#: includes/template-tags.php:80
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s a %2$s"
+
+#: includes/template-tags.php:81 includes/template-tags.php:103
+msgid "(edit)"
+msgstr "(modifica)"
+
+#: includes/template-tags.php:85
+msgid "Your comment is awaiting moderation."
+msgstr "Il tuo commento sta aspettando l'ok del moderatore"
+
+#: includes/template-tags.php:103
+msgid "Pingback:"
+msgstr ""
+
+#: includes/template-tags.php:122 includes/template-tags.php:125
+msgid ", "
+msgstr ""
+
+#: includes/template-tags.php:136
+#, php-format
+msgid "View all posts by %s"
+msgstr "Vedi tutti gli articoli da %s"
+
+#: includes/template-tags.php:142
+#, php-format
+msgid ""
+"<span class=\"posted-by\">Posted by: %1$s </span><span class=\"spacer\">//</"
+"span> %2$s <span class=\"spacer\">//</span> %3$s <span class=\"spacer\">//</"
+"span> %4$s"
+msgstr ""
+"<span class=\"posted-by\">Pubblicato da: %1$s </span><span class=\"spacer"
+"\">//</span> %2$s <span class=\"spacer\">//</span> %3$s <span class=\"spacer"
+"\">//</span> %4$s"
+
+#: includes/template-tags.php:144
+#, php-format
+msgid ""
+"<span class=\"posted-by\">Posted by: %1$s </span><span class=\"spacer\">//</"
+"span> %2$s <span class=\"spacer\">//</span> %4$s"
+msgstr ""
+"<span class=\"posted-by\">Pubblicato da: %1$s </span><span class=\"spacer"
+"\">//</span> %2$s <span class=\"spacer\">//</span> %4$s"
+
+#: includes/template-tags.php:146
+#, php-format
+msgid "<span class=\"posted-by\">Posted by: %1$s </span> //  %4$s"
+msgstr "<span class=\"posted-by\">Pubblicato da: %1$s </span> //  %4$s"
+
+#: includes/theme-functions.php:46
+msgid "Primary Menu"
+msgstr "Menu Principale"
+
+#: includes/theme-functions.php:47
+msgid "Header Menu - Top (No dropdowns)"
+msgstr "Header Menu - Top (No dropdowns)"
+
+#: includes/theme-functions.php:48
+msgid "Footer Menu (No dropdowns)"
+msgstr ""
+
+#: includes/theme-functions.php:141
+#, php-format
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#: includes/theme-functions.php:198
+msgid "Main Sidebar"
+msgstr ""
+
+#: includes/theme-functions.php:200
+msgid ""
+"Appears on posts and pages but not on the homepage when the homepage widget "
+"area has widgets."
+msgstr ""
+"Visualizzato per articoli e pagine ma non sulla pagina iniziale quando sono "
+"widget impostati nella zona \"homepage widget\""
+
+#: includes/theme-functions.php:208
+msgid "Homepage Sidebar"
+msgstr ""
+
+#: includes/theme-functions.php:210
+msgid ""
+"Appears on the \"default\" homepage page, leave empty to use the main "
+"sidebar on the home page."
+msgstr ""
+
+#: includes/theme-functions.php:218
+msgid "Header Widget"
+msgstr ""
+
+#: includes/theme-functions.php:220
+msgid ""
+"Appears inside the header area. Great for ads, search, or social buttons."
+msgstr ""
+
+#: includes/theme-functions.php:228
+msgid "Footer Area One"
+msgstr ""
+
+#: includes/theme-functions.php:230 includes/theme-functions.php:240
+#: includes/theme-functions.php:250
+msgid "An optional widget area for your site footer"
+msgstr ""
+
+#: includes/theme-functions.php:238
+msgid "Footer Area Two"
+msgstr ""
+
+#: includes/theme-functions.php:248
+msgid "Footer Area Three"
+msgstr ""
+
+#: includes/admin/help.php:26
+msgid "General"
+msgstr ""
+
+#: includes/admin/help.php:32
+msgid "FAQ"
+msgstr ""
+
+#: includes/admin/help.php:38
+msgid "License"
+msgstr "Licenza"
+
+#: includes/admin/help.php:44
+msgid "Donate"
+msgstr "Dona"
+
+#: includes/admin/theme-options.php:32
+msgid " Leaf Options"
+msgstr "Opzioni Leaf"
+
+#: includes/admin/theme-options.php:32
+msgid "Leaf Options"
+msgstr "Opzioni Leaf"
+
+#: includes/admin/theme-options.php:65
+msgid "Theme Layout"
+msgstr "Impostazione tema"
+
+#: includes/admin/theme-options.php:66
+msgid "Choose Your theme layout."
+msgstr "Seleziona la tua impostazione di tema"
+
+#: includes/admin/theme-options.php:70
+msgid "Theme Accent Color"
+msgstr "Colore tema"
+
+#: includes/admin/theme-options.php:71
+msgid "Changes the theme accent color (Default #C4302B)"
+msgstr "Modifica il colore tema (Default #C4302B)"
+
+#: includes/admin/theme-options.php:74
+msgid "Google Fonts"
+msgstr ""
+
+#: includes/admin/theme-options.php:75
+msgid "Check to remove Google Fonts. (Oswald and PT Sans)"
+msgstr "Seleziona per togliere Google Fonts. (Oswald and PT Sans)"
+
+#: includes/admin/theme-options.php:77
+msgid "Slider Category"
+msgstr "Categoria/e slider"
+
+#: includes/admin/theme-options.php:78
+msgid "Select a single category or all categories for the slider."
+msgstr "Seleziona una categoria o tutte le categorie per lo slider."
+
+#: includes/admin/theme-options.php:81
+msgid "Slider transition effects"
+msgstr "Effetti di transizione slider"
+
+#: includes/admin/theme-options.php:82
+msgid "Slider transition effects."
+msgstr "Effetti di transizione slider."
+
+#: includes/admin/theme-options.php:86
+msgid "Slider speed"
+msgstr "Velocità slider"
+
+#: includes/admin/theme-options.php:87
+msgid "Slider speed in milliseconds."
+msgstr "Velocità slider (ms)."
+
+#: includes/admin/theme-options.php:91
+msgid "Sidebar Column"
+msgstr "Colonna sidebar"
+
+#: includes/admin/theme-options.php:92
+msgid "Sidebar column width."
+msgstr "Larghezza colonna sidebar."
+
+#: includes/admin/theme-options.php:96
+msgid "Home Page Categories"
+msgstr "Categorie - pagina iniziale"
+
+#: includes/admin/theme-options.php:97
+msgid ""
+"You can choose multiple categories by holding the <code>Ctrl</code> key "
+"while selecting."
+msgstr ""
+"Puoi scegliere più di una categoria premendo il tasto <code>Ctrl</code> "
+"mentre selezioni."
+
+#: includes/admin/theme-options.php:100
+msgid "Number of More Articles"
+msgstr "Numero di Altri Articoli"
+
+#: includes/admin/theme-options.php:101
+msgid ""
+"Number of post to display in the more articles section on the \"default\" "
+"home page."
+msgstr ""
+"Numero di articoli da visualizzare nella sezione \"altri articoli\" nella "
+"pagina iniziale di default."
+
+#: includes/admin/theme-options.php:105
+msgid "Custom CSS "
+msgstr ""
+
+#: includes/admin/theme-options.php:106
+msgid ""
+"The most important use for this area is to enter custom CSS rules to control "
+"the look of your site."
+msgstr ""
+"L'uso più importante di questa zona per per inserire regole CSS ad hoc per "
+"modificare lo stile del tuo sito."
+
+#: includes/admin/theme-options.php:119
+msgid "Theme Options"
+msgstr "Opzioni tema"
+
+#: includes/admin/theme-options.php:120
+msgid ""
+"Refer to the contextual help screen in the top right hand corner for help "
+"with the theme. "
+msgstr "Vedi l'auto contestualizzato in alto a destra per aiuto con il tema."
+
+#: includes/admin/theme-options.php:130
+msgid "Leaf options reset."
+msgstr "Opzioni Leaf ripristinate."
+
+#: includes/admin/theme-options.php:132
+msgid "Leaf options saved."
+msgstr "Opzioni Leaf salvate."
+
+#: includes/admin/theme-options.php:272
+msgid "Save All Changes"
+msgstr "Salva tutte le modifiche"
+
+#: includes/admin/theme-options.php:300
+msgid "Like the Theme? Help it stay up to date."
+msgstr "Ti piace il tema Leaf? Aiutalo a rimanere aggiornato."
+
+#: includes/admin/theme-options.php:307
+msgid "Reset / Delete Settings"
+msgstr "Ripristina / Cancella impostazioni"
+
+#: includes/admin/theme-options.php:309
+msgid ""
+"<font color#222><b>Caution:</b></font> All entries will be deleted from "
+"database."
+msgstr ""
+"<font color#222><b>Attenzione:</b></font> Tutti gli elementi saranno "
+"cancellati dalla base dati."
